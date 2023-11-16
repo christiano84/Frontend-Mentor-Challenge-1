@@ -14,25 +14,16 @@
 }
 
 .container {
-  display: flex;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 30px;
-  box-shadow: 2px 30px 25px rgba(229, 234, 248, .8), 
-              2px 0 25px rgba(229, 234, 248, .8);
+  display: grid;
+  max-width: 828px;
 }
 
 .col1 {
-  width: 375px;
-  border-radius: 30px;
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   padding: 60px;
   text-align: center;
 }
 .col2 {
-  width: 375px;
   background-color: #fff;
   border-radius: 0 30px 30px;
   padding: 60px 40px;
@@ -48,6 +39,7 @@
   border-radius: 50%;
   background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
 }
+
 .circle p span {
   color: #fff;
   font-size: 3.75rem;
@@ -55,6 +47,7 @@
   display: block;
   font-weight: bold;
 }
+
 .circle p {
   color: #8173FF;
 }
@@ -80,6 +73,7 @@
   margin-bottom: 30px;
   color: #353B54;
 }
+
 .summary-row {
   display: flex;
   justify-content: space-between;
@@ -110,14 +104,17 @@
 
 .icon-wrapper {
   display: flex;
-  
 }
+
 .icon-wrapper img {
   margin-right: 10px;
 }
+
 .summary-row p, .numbers {
   font-size: .92rem;
+  font-weight: 600;
 }
+
 .numbers span {
   color: #9496A6;
 }
@@ -132,15 +129,19 @@
   color: #F8FFFF;
   font-size: 1rem;
   cursor: pointer;
-  transition: background-image .3s;
 }
+
 .col2 button:hover {
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
-@media (max-width: 751px) {
+@media (max-width: 600px) {
   .container {
     flex-direction: column;
+  }
+  .col1 {
+    padding: 25px 40px 40px 40px;
+    border-radius: 0 0 30px 30px;
   }
   .summary, .result {
     font-size: 1.1rem;
@@ -154,5 +155,21 @@
   .score {
     font-size: .85rem;
   }
-  
+}
+
+@media (min-width: 600px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 2px 30px 25px rgba(229, 234, 248, .8), 
+                2px 0 25px rgba(229, 234, 248, .8);
+    border-radius: 30px;
+  }
+  body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  .col1 {
+    border-radius: 30px;
+  }
 }
