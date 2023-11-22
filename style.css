@@ -18,18 +18,18 @@ body {
 
 .container {
   display: grid;
-  max-width: 828px;
+  max-width: 750px;
 }
 
 .col1 {
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-  padding: 60px;
+  padding: 40px 60px;
   text-align: center;
 }
 .col2 {
   background-color: #fff;
   border-radius: 0 30px 30px;
-  padding: 60px 40px;
+  padding: 40px 40px 40px;
 }
 
 .circle {
@@ -82,7 +82,7 @@ body {
   justify-content: space-between;
   align-items: center;
   border-radius: 12px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   padding: 15px;
   box-shadow: 1px 1px 5px rgba(0,0,0,.04);
 }
@@ -114,7 +114,7 @@ body {
 }
 
 .summary-row p, .numbers {
-  font-size: .92rem;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 
@@ -123,7 +123,7 @@ body {
 }
 
 .col2 button {
-  margin-top: 25px;
+  margin-top: 15px;
   border-radius: 35px;
   padding: 17px 0;
   width: 100%;
@@ -136,6 +136,7 @@ body {
 
 .col2 button:hover {
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  
 }
 
 .attribution { 
@@ -172,7 +173,7 @@ body {
   }
 }
 
-@media (min-width: 825px) {
+@media (min-width: 750px) {
   .container {
     grid-template-columns: 1fr 1fr;
     box-shadow: 2px 30px 25px rgba(229, 234, 248, .8), 
