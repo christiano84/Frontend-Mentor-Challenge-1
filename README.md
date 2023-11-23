@@ -1,3 +1,9 @@
+Hello, this is a test of HTML and CSS knowledge. The goal is to re-create the design given in both desktop and mobile view to ensure a responsive design.
+
+I re-created this Frontend Mentor challenges by eye without any software like Figma to give me the exact font sizes, margins, etc of the layout. This increases the difficulty and time it takes to 
+
+re-create a layout. I think I came extremely close to the design. What do you think?
+
 VIEW THE LIVE SITE HERE
 
 https://christiano84.github.io/Frontend-Mentor-Challenge-1/
