@@ -6,6 +6,10 @@ VIEW THE LIVE SITE HERE
 
 https://christiano84.github.io/Frontend-Mentor-Challenge-1/
 
+CHALLENGE SPEC
+
+https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV
+
 # Frontend Mentor - Results summary component
 
 ![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)
