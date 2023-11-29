@@ -1,6 +1,8 @@
 Hello, this is a test of HTML and CSS knowledge. The goal is to re-create the design given in both desktop and mobile view to ensure a responsive design.
 
-I re-created this design by eye without any software like Figma to give me the exact font sizes, margins, etc of the layout. This increases the difficulty and time it takes to re-create a layout. I feel that I came extremely close to the design. 
+You can view my solution at the live site below as well as the 'challenge' specification below it to compare the two.
+
+I re-created this design by eye without any software like Figma to give me the exact font sizes, margins, etc of the layout. This increases the difficulty and time it takes to re-create a layout. 
 
 VIEW THE LIVE SITE HERE
 
@@ -19,8 +21,6 @@ https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV
 Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
-
-**To do this challenge, you need a basic understanding of HTML and CSS.**
 
 ## The challenge
 
