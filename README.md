@@ -4,11 +4,11 @@ You can view my solution at the live site below as well as the 'challenge' speci
 
 I re-created this design by eye without any software like Figma to give me the exact font sizes, margins, etc of the layout. This increases the difficulty and time it takes to re-create a layout. 
 
-VIEW THE LIVE SITE HERE
+VIEW MY SOLUTION
 
 https://christiano84.github.io/Frontend-Mentor-Challenge-1/
 
-CHALLENGE SPEC
+SPECIFICATION
 
 https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV
 
