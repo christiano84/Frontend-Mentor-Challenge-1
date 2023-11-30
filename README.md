@@ -1,4 +1,4 @@
-Hello, this is a test of HTML and CSS knowledge. The goal is to re-create the design given in both desktop and mobile view to ensure a responsive design.
+This is a test of HTML and CSS knowledge. The goal is to re-create the design given in both desktop and mobile view to ensure a responsive design.
 
 You can view my solution at the live site below as well as the 'challenge' specification below it to compare the two.
 
