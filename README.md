@@ -2,7 +2,7 @@ This is a test of HTML and CSS knowledge. The goal is to re-create the design gi
 
 You can view my solution at the live site below as well as the 'challenge' specification below it to compare the two.
 
-I re-created this design by eye without any software like Figma to give me the exact font sizes, margins, etc of the layout. This increases the difficulty and time it takes to re-create a layout. 
+I re-created this design by eye without any software like Figma. This increases the difficulty and time it takes to re-create a layout as opposed to having all the values in front of you like font sizes, margins, etc.
 
 VIEW MY SOLUTION
 
